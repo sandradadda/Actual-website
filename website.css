@@ -1,0 +1,24 @@
+#logo {
+    width: 250px;
+    
+}
+
+body {
+    background-color: rgb(241, 238, 238);
+
+}
+#inner {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    padding: 28px 30px 14px 30px;
+
+}
+#alana {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height:30%;
+}
