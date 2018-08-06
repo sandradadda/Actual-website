@@ -1,24 +1,41 @@
-#logo {
-    width: 250px;
-    
-}
-
 body {
-    background-color: rgb(241, 238, 238);
+    background-image: url("alanass.png");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
-#inner {
-    background-color: white;
-    width: 90%;
-    height: 90%;
-    margin: auto;
-    padding: 28px 30px 14px 30px;
+html{
+    height: 100%;
+}
+
+#title {
+    font-family: 'Open Sans', sans-serif;
+   text-align: center;
+   letter-spacing:2px;
+   font-weight: lighter;
+   font-size: 50px;
+   padding-top: 120px;
 
 }
-#alana {
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height:30%;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
 }
