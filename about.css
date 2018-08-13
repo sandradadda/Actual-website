@@ -1,0 +1,118 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+} 
+
+/* body {
+    background-image: url("https://media.giphy.com/media/TGLt7x4Ppau1oEj21v/giphy.gif");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+html {
+    height: 100%;
+}
+.parallax {
+    background-image: url("https://media.giphy.com/media/TGLt7x4Ppau1oEj21v/giphy.gif");
+    min-height: 600px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.row {
+    flex-direction: row;
+    padding: 5px;
+    padding: 40px 20px;
+}
+#gwclogo {
+
+    margin: 10px;
+    width: 15%;
+    padding: 1px 22px;
+    float: right;
+}
+#emtlogo {
+    
+    margin: 10px;
+    width: 8%;
+    float: right;
+    
+}
+#navylogo {
+    margin: 5px;
+    width: 8.5%;
+    float: right;
+}
+
+#pallogo  {
+    margin: 5px;
+    width: 7.8%;
+    padding: 2px 22px;
+    float: right;
+}
+
+.aboutme {
+    margin: 10px;
+    float:left;
+}
+
+#hannahpic {
+    width: 23%;
+    padding: 40px 50px;
+    float: left;
+}
+#titleabout {
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 40px 160px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.row2 {
+    flex-direction: row;
+}
+.container1 {
+    background-color: rgb(241, 239, 239);
+    margin: 80px;
+    width: 90px;
+    margin-top: 140px;
+    padding: 170px 150px;
+}
+#rotc {
+    font-family: 'Nanum Gotic', sans-serif;
+    font-size: 27px;
+    font-weight: normal;
+    position: relative;
+    bottom: 170px;
+    right: 10px;
+}
+/* .footer {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        left: 0;
+        padding: 10px;
+        background-color: rgb(231, 230, 230);
+        text-align: center;
+}
+#footername {
+    font-family: 'Roboto', sans-serif;
+} */

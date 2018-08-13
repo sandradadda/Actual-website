@@ -1,11 +1,13 @@
-body {
+/* body {
     background-image: url("alanass.png");
     height: 100%;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-
+    background-repeat: no-repeat; */
+body, html {
+    height: 100%;
 }
+
 html{
     height: 100%;
 }
@@ -38,4 +40,24 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     font-family:'Roboto', sans-serif;
+}
+.parallax {
+    background-image: url("alanass.png");
+    min-height: 600px;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.caption {
+    float:left;
+    padding: 30px 10px;
+    margin: 10px;
+}
+#me {
+    width: 40%;
+    padding: 10px 80px;
+
+
 }
