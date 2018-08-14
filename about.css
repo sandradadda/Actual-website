@@ -95,14 +95,25 @@ html {
     width: 90px;
     margin-top: 140px;
     padding: 170px 150px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 #rotc {
-    font-family: 'Nanum Gotic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     font-size: 27px;
     font-weight: normal;
     position: relative;
     bottom: 170px;
     right: 10px;
+}
+#rotcdate {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: grey;
+    font-size: 14px;
+    font-weight: lighter;
+    position: relative;
+    bottom: 190px;
+    right: 12px;
 }
 /* .footer {
         position: absolute;
